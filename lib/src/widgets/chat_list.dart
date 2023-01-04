@@ -232,6 +232,9 @@ class _ChatListState extends State<ChatList>
                 ),
               ),
             ),
+            SliverOverlapInjector(
+              handle: NestedScrollView.sliverOverlapAbsorberHandleFor(context),
+            ),
           ],
         ),
       );
